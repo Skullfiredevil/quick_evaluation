@@ -74,6 +74,7 @@ Now let us commit this work too like we did before and push this back to Github.
 Once you have done this you now know the very basic functionality of Git and it's version control mechanism and for now this is all you will need!
 
 #### Challenge Completed! 🎖
+Please practice this with various file types until you are confident about how the basics work!
 
 ### Completion Checklist
 
