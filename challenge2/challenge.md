@@ -12,7 +12,7 @@ During this challenge you will be asked to make a website to a basic brief and d
    2. [Sublime](https://www.sublimetext.com/)
    3. [Phpstorm](https://www.jetbrains.com/phpstorm/)
    4. [Atom](https://atom.io/)
-2. A webbrowser like Chrome
+2. A web browser like Chrome
 
 ### The challenge
 
