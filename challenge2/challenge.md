@@ -1,4 +1,4 @@
-# Challenge 1: HTML/CSS And Javascript aka The Web!
+# Challenge 2: HTML/CSS And Javascript aka The Web!
 
 ### Description
 This challenge is all about testing your basic understanding and ability to program in web languages!
