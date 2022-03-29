@@ -188,8 +188,16 @@ You will also need to make use of the fetch API to gather this data from our "da
 
 Once you have the javascript and php file completed and working as per spec please submit this to a new repository for inspection (exactly the same way you did in Challenge 1).
 
-
 ### Completion Checklist
+
+- [ ] Create the 3 required files
+- [ ] Make use of the Fetch API within your `app.js` 
+- [ ] Fetch data from the `backend.php` making use of the fetch API
+- [ ] Display the data to the webpage div
+- [ ] Allow the user to change and browse different options
+- [ ] Handle invalid options within your `backend.php` file and respond appropriately
+- [ ] Return Valid JSON from `backend.php` on a good request
+- [ ] Submit the project to github for review 
 
 ## Extras!
 
