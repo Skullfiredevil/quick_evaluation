@@ -24,6 +24,8 @@ From this you will need a new project with 3 files:
 2. `app.js`
 3. `index.html`
 
+You can find a copy of these files within the `res/` folder for ease.
+
 ### Brief
 Your `backend.php` file should contain this array of information right at the top as this will act as your database (databases we will take a detailed look at later):
 
@@ -190,6 +192,10 @@ Once you have the javascript and php file completed and working as per spec plea
 ### Completion Checklist
 
 ## Extras!
+
+PHP is an adept server side language that can be quite power for quickly making API's and storing data to various connections. As you progress through the challenges you will be making more use of this language so it would be wise to practice it further.
+
+You are getting started on the "Full Stack" journey.
 
 Now there are several techniques or acronyms that you might want to read up on in your own time, these are called API paradigms. The most common of which is named REST API or RESTful 
 API which stands for Representational State Transfer. Big words but the just is that the API controls the state of the Data and can return the data, modify the data and then finally delete the data. 
