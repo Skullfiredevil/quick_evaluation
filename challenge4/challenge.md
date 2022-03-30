@@ -20,10 +20,13 @@ For this challenge you will be designing a webpage for your favourite food! It n
 
 Using this theme you will need to make all the web content similar to how a company may wish to see it. You make it look anyway you wish and if you need some inspiration look [here](https://websitesetup.org/website-layouts/).
 
-The Homepage `index.html` can contain any details for fun facts you would like etc to make it look legit.
+The Homepage `index.html` can contain any details for fun facts you would like etc to make it look legit. 
+
+> It must also contain links to the other pages!
 
 Now the key thing is to test the skills you had in challenge 2 and 3, this means that the following must happen for the other two pages.
 
+Note that all the below webpages should make use of javascript and the fetch API to connect the webpage to the PHP backends.
 - `contactus.html` 
   - Must have a contact form for a user to submit a query, something similar to our website [here](https://www.yourmeds.net/contact)
   - This page must submit the inputted data to a `contact.php` script you create
@@ -33,9 +36,19 @@ Now the key thing is to test the skills you had in challenge 2 and 3, this means
 - `login.html`
   - Must look like a generic login page, use any inspiration you see fit
   - Must submit a username and password to `login.php`
-  - `login.php` does not need to do anything for the moment
+  - `login.php` does not need to do anything for the moment but needs to be present
+
+Once you have completed these basic parts, and critically you are happy with the design move on to the more advanced requirements below.
+
+Please upload this to a new repository before continuing to the next challenge.
 
 ### Completion Checklist
-
+- [ ] Created the 3 webpages
+- [ ] `index.html` links to the other 2 pages directly
+- [ ] You have created a `contact.php` file that takes in the contact form from your `contactus.html` page
+- [ ] `login.html` looks like a normal login page and sends a username and password to `login.php`
+- [ ] `login.php` is an empty php file 
+- [ ] You have uploaded this project to a new repository and made your initial commit
 
 ## Extras!
+Now is the time to experiment with new designs and extend your understanding of CSS and HMTL. If you enounter anything that makes it difficult for you just ask and we will work through it together.
