@@ -24,11 +24,13 @@ session_start();
 
 This will send a Cookie back to the web browser once the connection is completed. If you submit your login form
 to `login.php` now, you can actually see this cookie (named: "PHPSESSID") inside the dev tools!
+
 <img width="452" alt="image" src="https://user-images.githubusercontent.com/23214373/160843677-86e42f68-0dbb-4a9a-bcfb-15b1187ffa42.png">
 
 
 Now this session lets the PHP engine know whenever the browser connects, who has connected using this cookie as part of
 the HTTP request. You can see this as part of the request inside the dev tools too!
+
 <img width="452" alt="image" src="https://user-images.githubusercontent.com/23214373/160843699-48b960c0-31ea-4b84-bc8c-28e057536c2e.png">
 
 Now that this is happening we want to validate the user and store some information about the user to our Session.
