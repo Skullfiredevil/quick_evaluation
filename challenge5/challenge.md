@@ -91,3 +91,4 @@ One success we want to navigate the user back to the home page, which we can do 
 - [ ] Understand how we can use Sessions for more power later!
 
 ## Extras!
+Please make sure to commit this work to your repository!
