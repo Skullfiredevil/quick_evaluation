@@ -25,10 +25,92 @@ now is the following:
 This will test 2 things, one using a backend to store data and secondly using PHP to show more information on the front
 end.
 
+In PHP we have two very helpful functions we can use, firstly `file_get_contents(XXXX)` and
+secondly `file_put_contents(XXXX)`. Where XXXX is the path to your file on disk, you can create an absolute path or a
+relative path for this one.
+
+To briefly cover the difference between path types look below:
+
+1. Relative path
+
+A relative path is the most common path that you can come up with and are widely used, however, they have some drawbacks
+in some cases. In PHP for example if a file does not exist PHP will automatically look in it's install folder for a file
+of the same name and spit back an error with some silly path you probably won't recognise, so bear that in mind!
+
+Relative paths are always referenced to the point of execution, this is true for almost all languages, so for PHP and
+Javascript (or most interpreted languages), this is relative to the location of the PHP script itself. That is what
+makes it helpful and super easy to read but harder to debug when things go wrong.
+
+To use relative paths in PHP we do the following `./contact.json` for example, this `./` part tells PHP that the path is
+relative to the folder that PHP script you are running in. You can also use `../` to look in the folder above the one
+the script is in. By using the two in combination you can navigate the Folder structure quite easily.
+
+For example say we had a project with a folder structure like this:
+
+```
+| - data
+|       :contact.json
+| - api
+|       - contacts
+|           :contact.php
+
+
+Where  
+- is a folder
+: is a file 
+```
+
+And we wanted the `api/contacts/contact.php` file to access the `data/contact.json file` we would create the relative
+path like this within the `contact.php` file: `"../../data/contact.json"` and that would reference the data file. Please
+ask if you do not understand how this is working.
+
+2. Absolute path
+
+The exact file location on disk on the specific machine you are dealing with.
+
+On windows this may be the something similar to the following:
+`C:\Users\User\Documents\Project\contact.json`
+
+And this will be similar to any other operating system just with some variance.
+
+Now the issue with an Absolute path reference like this is if you were to copy this exactly to any other machine the
+pathing might be completely wrong. For an extreme example the above windows absolute path would not work on any other
+operating system for example. But the more fundamental problem is this file might exist in different locations depending
+on where the code is being run.
+
+To get around this problem you can generate the absolute path on the fly in most languages. For example say we want to
+get the path to `contact.json` in PHP. We can do this by making use of the `__DIR__` global reference. `__DIR__` will
+automatically return the path in a string type to the current PHP file.
+
+You can see this in action if you make a file containing this code:
+
+```injectablephp
+<?php
+
+echo __DIR__;
+
+?>
+
+```
+
+We can then use this in combination with the relative path (removing the `.`) to make an absolute path to any file
+within our project.
+
+```injectablephp
+<?php
+
+echo __DIR__ . '/contact.json'; // Example only!
+
+```
+
+The problem with absolute paths is that they are tricky to manage properly and are harder to read. Hence, why we tend to
+use relative paths, you should too for now.
+
 ### Completion Checklist
 
 - [ ] When a user submits a valid contact form store the data to a file
 - [ ] Read and display the contents of this file to your Dashboard web page when the admin is logged in.
+- [ ] Make it styled according to your website
 
 ## Extras!
 

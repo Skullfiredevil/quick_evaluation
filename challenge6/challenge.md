@@ -72,5 +72,5 @@ the look of!
 ## Extras!
 
 Now that you have gotten the basics of using PHP to empower your webpages dynamically, try and create a simple Dashboard
-web page that is only available to your logged in users and fill it with some fun content that isn't available anywhere
+web page that is only available to your logged-in users and fill it with some fun content that isn't available anywhere
 else on your web page.
