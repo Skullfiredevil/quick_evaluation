@@ -26,8 +26,8 @@ This will test 2 things, one using a backend to store data and secondly using PH
 end.
 
 In PHP we have two very helpful functions we can use, firstly `file_get_contents(XXXX)` and
-secondly `file_put_contents(XXXX)`. Where XXXX is the path to your file on disk, you can create an absolute path or a
-relative path for this one.
+secondly `file_put_contents(XXXX, STRING_DATA)`. Where XXXX is the path to your file on disk, you can create an absolute path or a
+relative path for this one. In PHP all paths are strings and should be wrapped in quotes.
 
 To briefly cover the difference between path types look below:
 
