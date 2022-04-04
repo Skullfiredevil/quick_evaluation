@@ -59,7 +59,7 @@ Next we want to add a place where the user can easily see they are logged in, us
 their name somewhere near the top of the screen. On most websites this is all your need to do. Just like before you can
 use PHP mixed with HTML to render this!
 
-You must now figure out how to show the `$_SESSION["username"]` to the user somewhere on the your webpages that you like
+You must now figure out how to show the `$_SESSION["username"]` to the user somewhere on your webpages that you like
 the look of!
 
 ### Completion Checklist
