@@ -39,6 +39,7 @@ our new endpoint, and then show that information on the webpage.
 You will then need to add a button that allows the user to refresh the data by sending another Fetch Request.
 
 ### Completion Checklist
+
 - [ ] Create a new contact end point
 - [ ] Handle user auth state
 - [ ] Show the contact messages on your dashboard using Javascript
@@ -51,7 +52,26 @@ Once you have done this you may want to think about showing the user that you ar
 message or something while the request is being processed.
 
 To test this is working you might want to get your PHP endpoint to take some extra time. In PHP and many languages there
-is a sleep function, in PHP's case it's just `sleep(X)` where X is then number of seconds you want to delay the
-script. Make use of this to test your loading display.
+is a sleep function, in PHP's case it's just `sleep(X)` where X is then number of seconds you want to delay the script.
+Make use of this to test your loading display.
 
 Make sure to commit your work to your repository.
+
+
+<hr />
+
+Another extra I would like you to do, is to clean up your project, as I am sure that you have put all of your files
+within the root folder. If you have not already done so can you separate all your code into directories based on their
+file type/extension.
+
+For example all javascript files should be in a folder `js/` etc for all the different extensions. You will need to
+change all your references to these files within your code to make sure that you are making use of the relative path's
+correctly.
+
+Once you have completed this you will notice that your `index.php` file no longer loads when you got to the root of your
+server.
+
+To fix this move your `index.php` file back to the root of your project and fix the remaining references then it should
+work as normal.
+
+
