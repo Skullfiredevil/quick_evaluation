@@ -118,7 +118,7 @@ Now the next step after creating and inserting data you need to write some raw S
 In this file you need to have the following queries on show:
 
 1. Get all users
-2. Get a user where their username or password equals some value
+2. Get a user where their username and password equals some value
 3. Get all contacts
 4. Insert a single new contact into the `contacts` table
 
