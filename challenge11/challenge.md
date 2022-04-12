@@ -49,7 +49,12 @@ Right now that we have located the package, you have found the README time to ge
 In order for composer to work we must first initialise it in the root of your project, we do this by running the
 `composer init` command in a terminal: which will give you a series of prompts which we will fill in together:
 
-> image here
+
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/23214373/162912816-daa7d778-4736-45b9-a4cd-33f1bc91bc86.png">
+
+
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/23214373/162912841-0411b42f-d2ee-423c-9d83-212e57bb56a5.png">
+
 
 For the package name and description just press `enter` and leave these are their defaults.
 
@@ -87,7 +92,10 @@ Now to add in the `vlucas/phpdotenv` package we are going use the following comm
 download it and install it to your project.
 
 Once the command finishes you should see output similar to below:
-> image here
+
+
+<img width="452" alt="image" src="https://user-images.githubusercontent.com/23214373/162912868-7bc9280d-3a40-4d33-8601-0b28d2d45ef2.png">
+
 
 If you look at your project again you should see composer added two things to your project:
 
