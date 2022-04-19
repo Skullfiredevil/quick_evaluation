@@ -1,4 +1,4 @@
-# Challenge 12: Using package managers for someone else's project!
+# Challenge 12: Using package managers for someone else's project and Basic debugging!
 
 ### Description
 
@@ -47,5 +47,4 @@ aid in your own project.
 
 Now that you have seen some else's project and understood their thinking somewhat, find some good techniques used within
 this project and put them into your code from challenge 11!
-
 
