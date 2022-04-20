@@ -40,7 +40,7 @@ aid in your own project.
 
 - [ ] Get the `res/` up and running
 - [ ] Resolve the bug on the `contacts` page that is causing the project to no longer function
-- [ ] Login is auto navigating on success
+- [ ] Login is no longer auto navigating on success fix the issue
 - [ ] Cleanup unused dependencies in `composer.json`
 
 ## Extras!
