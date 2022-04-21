@@ -95,7 +95,7 @@ Vue.createApp({
 Now that you have done this we should have a working VueJs instance. All being well you should see the message displayed
 right at the bottom of your HTML.
 
-> image here
+<img width="1792" alt="Screenshot 2022-04-20 at 11 22 56" src="https://user-images.githubusercontent.com/23214373/164458480-552e1068-a443-4a77-9da4-1a26decafa5b.png">
 
 Now that we have Vue working let us make use of the core features to get our web application running better.
 
