@@ -31,6 +31,7 @@ Once done we are going to create a `.gitignore` file inside we are going to put 
 
 Now I want you to follow along to a video tutorial series
 on [laracasts](https://laracasts.com/series/webpack-for-everyone/episodes/1) and stop once you reach and finish episode
+4.
 
 ### Completion Checklist
 
