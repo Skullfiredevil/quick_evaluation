@@ -17,6 +17,9 @@
 </template>
 
 <script>
+
+import './css/second.css';
+
 export default {
   name: "ListItem",
   props: {
@@ -36,8 +39,5 @@ export default {
 </script>
 
 <style scoped>
-.flex {
-  justify-content: space-between;
-  padding: 0.5em 2em;
-}
+
 </style>

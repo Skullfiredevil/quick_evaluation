@@ -47,43 +47,6 @@ export default {
 }
 </script>
 
-<style>
-
-.flex {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-}
-
-.column {
-  flex-direction: column;
-}
-
-.row {
-  flex-direction: row;
-}
-
-.row > .reverse {
-  flex-direction: row-reverse;
-}
-
-.column > .reverse {
-  flex-direction: column-reverse;
-}
-
-.card {
-  box-shadow: 0 0.3em #AAAAAA;
-  background-color: #FFFFFF;
-  padding: 0.2em;
-}
-
-.round {
-  border-radius: 1em;
-}
-
-.mx-auto {
-  margin: auto;
-}
-
+<style scoped>
 
 </style>
